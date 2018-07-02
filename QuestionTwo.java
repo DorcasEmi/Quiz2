@@ -11,8 +11,7 @@ import android.widget.Toast;
 
 public class QuestionTwo extends AppCompatActivity {
     RadioGroup radioGroup;
-    RadioButton questionOneAnswer;
-    RadioButton questionTwoAnswer;
+
     int scoreQuestionONe = 5;
     Button next;
     int radioBut;
