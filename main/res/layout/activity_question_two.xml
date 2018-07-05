@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1185c4"
+    android:orientation="vertical"
+    tools:context=".QuestionTwo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HINT: \n \nFrom the list of the words lettered A to D, choose the one that is NEAREST in meaning to the words in bracket from each sentence."
+            android:textColor="@android:color/white"
+            android:textSize="19sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Question 1:"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The fisherman was ordered to dive into the sea to rescue the drowning prince. \n (Ordered)"
+            android:textSize="20sp"
+            android:textColor="#ffffff"/>
+
+        <RadioGroup
+            android:id="@+id/radio_group_question_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Encouraged"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/option2Q1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Commanded"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Advised"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Permitted"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:onClick="Submit"
+            android:text="Next" />
+    </LinearLayout>
+</LinearLayout>
